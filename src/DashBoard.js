@@ -1,15 +1,5 @@
 import React from 'react'
 import { Layout, Menu } from 'antd';
-import {
-  AppstoreOutlined,
-  BarChartOutlined,
-  CloudOutlined,
-  ShopOutlined,
-  TeamOutlined,
-  UserOutlined,
-  UploadOutlined,
-  VideoCameraOutlined,
-} from '@ant-design/icons';
 import LayoutPage from './LayoutPage';
 
 const {Header, Footer, Content, Sider} = Layout
