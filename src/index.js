@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import DashBoard from './DashBoard';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DashBoard />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,68 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.right-sider ,.left-sider {
+  background: #ffffff;
+}
+.Content {
+  background: #eff0f8;
+}
+.top {
+  background-color: #ff72653a;
+  height:200px;
+  width : 100%;
+  margin: 1%;
+  border-radius: 25px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  border-radius: 25px;
+  height: 80px;
+  width : 100%;
+}
+.center {
+  margin: 1%;
+  border-radius: 25px;
+  height: 350px;
+  width : 100%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+.center-left {
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 37%;
+  display: inline-block;
+  height: 100%;
+  float: left;
+}
+.center-right {
+  border-radius: 25px;
+  background-color: white;
+  width: 61%;
+  display: inline-block;
+  height: 100%;
+  float: right;
+}
+.bottom-Button {
+  border-radius: 15px;
+  width: 33.34%;
+  height: 80px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+}
+.btn1 {
+  background-color: rgba(0, 0, 110, 0.75);
+}
+.btn2 {
+  background-color: rgba(127, 116, 226, 0.616);
+}
+.btn3 {
+  background-color: rgb(255, 100, 128);
 }
