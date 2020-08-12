@@ -2,7 +2,7 @@ import React from 'react'
 import { Layout, Menu } from 'antd';
 import LayoutPage from './LayoutPage';
 
-const {Header, Footer, Content, Sider} = Layout
+const {Content, Sider} = Layout
 
 function DashBoard() {
     return (
