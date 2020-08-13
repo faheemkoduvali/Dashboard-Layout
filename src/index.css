@@ -7,13 +7,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.site-layout {
+  background: #eff0f8;;
+}
 .right-sider ,.left-sider {
   background: #ffffff;
 }
